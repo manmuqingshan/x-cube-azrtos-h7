@@ -27,7 +27,7 @@ Azure RTOS is a professional grade, highly reliable and market proven Middleware
 One of the following toolchains:
 
 - IAR Embedded Workbench for ARM (EWARM) toolchain 8.50.9 + ST-LINKV3
-- [STM32CubeIDE V1.19.0](https://www.st.com/en/development-tools/stm32cubeide.html) + ST-LINKV3
+- [STM32CubeIDE V2.1.0](https://www.st.com/en/development-tools/stm32cubeide.html) + ST-LINKV3
 - RealView Microcontroller Development Kit (MDK-ARM) toolchain V5.39 + ST-LINKV3
 
 ## Supported Devices and Boards by applications
@@ -100,6 +100,7 @@ Details about the content of this release are available in the release note [her
 |USBX    | Ux_Host_HID_Standalone        | It demonstrates how to develop bare metal USB Host Human Interface “HID” able to enumerate and communicates with a mouse or a keyboard. The application is designed to behave as an USB HID Host, the code provides required requests to properly enumerate HID devices , HID Class APIs to decode HID reports received from a mouse or a keyboard and display data on uart HyperTerminal. [readme](./Projects/NUCLEO-H723ZG/Applications/USBX/Ux_Host_HID_Standalone/README.md) |
 |USBX    | Ux_Host_HUB_HID_MSC           | It demonstrates how to develop a USB Host Hub application supporting Human Interface “HID” and Mass Storage “MSC” class drivers to be able to enumerate and communicate with: - An USB hub. - A mouse. - A keyboard. - An USB removable flash disk. [readme](./Projects/STM32H747I-DISCO/Applications/USBX/Ux_Host_HUB_HID_MSC/README.md) |
 |USBX    | Ux_Device_Audio2.0_PlayBack   | It demonstrates how to develop USB Device communication Class "AUDIO" based application.The application is designed to emulate an USB (Out: Speaker/Headset), the code provides all required device descriptors framework and associated Class descriptor report to build a compliant USB AUDIO device. [readme](./Projects/STM32H743I-EVAL/Applications/USBX/Ux_Device_Audio2.0_PlayBack/README.md) |
+|USBX    | Ux_Device_Audio20_Recording   | It demonstrates how to develop a USB Device AUDIO 2.0 class application for microphone recording (IN endpoint).The application is designed to emulate an USB (In: Microphone). The code provides all required device descriptors framework and associated Class descriptors to build a compliant USB AUDIO 2.0 recording device. [readme](./Projects/STM32H743I-EVAL/Applications/USBX/Ux_Device_Audio20_Recording/README.md) |
 |USBX    | Ux_Host_Audio                 | It demonstrates how to develop AUDIO" able to enumerate and communicates with a device audio speaker 1.0/2.0. [readme](./Projects/STM32H747I-DISCO/Applications/USBX/Ux_Host_Audio/README.md) |
 |FileX   | Fx_uSD_File_Edit              | It demonstrates how to develop a basic SD card file operations application. The application is designed to handle SD card insertion/removal events, and depending on that state, it starts and stops file operations from and into the SD card. [readme](./Projects/STM32H735G-DK/Applications/FileX/Fx_uSD_File_Edit/README.md)  |
 |FileX   | Fx_MultiAccess                | It demonstrates how the FileX's concurrent file access capabilities. The application is designed to execute file operations on the SD card device, the code provides all required software code for handling SD card I/O operations. [readme](./Projects/STM32H735G-DK/Applications/FileX/Fx_MultiAccess/README.md) |
